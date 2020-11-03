@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: antiquewhite;
+        }
+        body{
+            background-color:lightgrey;
+        }
+        
+    </style>
+</head>
+<body>
+    <input type="number" placeholder="Lånesum" id="input_field">
+    <button id="hei" onclick="updateVariable()">Calculate</button>
+    <div hidden=true id="test">Nedbetalingsplan</div>
+    <table id="table" align="center">
+
+    </table>
+    <script src="./dataLoader.js"></script>
+</body>
+<script src="dataLoader.js"></script>
+</html>
